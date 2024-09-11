@@ -1,8 +1,9 @@
+
+
 * {
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   box-sizing: border-box;
 }
-
 h1,
 h2,
 h3,
@@ -11,13 +12,26 @@ h4 {
 }
 
 body {
-  background: rgba(252, 208, 122, 1);
+  background-image: url('maths.png');
   font-weight: 300;
   margin: 0;
 }
 
 .wrapper {
   width: 100%;
+}
+
+h1 {
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .calc {
